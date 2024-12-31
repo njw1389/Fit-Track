@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96A2CB1D2CF537A400D92460 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 96A2CB1C2CF537A400D92460 /* FirebaseCore */; };
+		96A2CB1F2CF537A400D92460 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 96A2CB1E2CF537A400D92460 /* FirebaseDatabase */; };
+		96A2CB232CF53E8600D92460 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 96A2CB222CF53E8600D92460 /* FirebaseAuth */; };
+		96A2CB252CF53E8600D92460 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 96A2CB242CF53E8600D92460 /* FirebaseCore */; };
+		96A2CB272CF53E8600D92460 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 96A2CB262CF53E8600D92460 /* FirebaseDatabase */; };
+		96A587292CF8FDF80078EF48 /* FitTrackWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 96A587132CF8FDF70078EF48 /* FitTrackWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		96A587332CF910700078EF48 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A587172CF8FDF70078EF48 /* SwiftUI.framework */; };
+		96A587362CF910720078EF48 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A587152CF8FDF70078EF48 /* WidgetKit.framework */; };
+		96A587392CF910830078EF48 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 96A587382CF910830078EF48 /* FirebaseDatabase */; };
+		96A5873B2CF910870078EF48 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 96A5873A2CF910870078EF48 /* FirebaseAuth */; };
+		96A5873D2CF9108C0078EF48 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 96A5873C2CF9108C0078EF48 /* FirebaseCore */; };
+		96C3301E2D07B4C9004AA33F /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E066BC2D04118100A52801 /* UserProfile.swift */; };
+		96E066E22D04118100A52801 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E066BC2D04118100A52801 /* UserProfile.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96A587272CF8FDF80078EF48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96E90E6C2CD7E34100BDBACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96A587122CF8FDF70078EF48;
+			remoteInfo = FitTrackWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		96A5872E2CF8FDF80078EF48 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				96A587292CF8FDF80078EF48 /* FitTrackWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		96A587132CF8FDF70078EF48 /* FitTrackWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FitTrackWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		96A587152CF8FDF70078EF48 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		96A587172CF8FDF70078EF48 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		96A587322CF90DC30078EF48 /* FitTrackWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FitTrackWidgetExtension.entitlements; sourceTree = "<group>"; };
+		96E066BC2D04118100A52801 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		96E90E742CD7E34100BDBACC /* FitTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		96A5872D2CF8FDF80078EF48 /* Exceptions for "FitTrackWidget" folder in "FitTrackWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 96A587122CF8FDF70078EF48 /* FitTrackWidgetExtension */;
+		};
+		96E90E842CD7E34300BDBACC /* Exceptions for "FitTrack" folder in "FitTrack" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 96E90E732CD7E34100BDBACC /* FitTrack */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		96A587192CF8FDF70078EF48 /* FitTrackWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				96A5872D2CF8FDF80078EF48 /* Exceptions for "FitTrackWidget" folder in "FitTrackWidgetExtension" target */,
+			);
+			path = FitTrackWidget;
+			sourceTree = "<group>";
+		};
+		96E90E762CD7E34100BDBACC /* FitTrack */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				96E90E842CD7E34300BDBACC /* Exceptions for "FitTrack" folder in "FitTrack" target */,
+			);
+			path = FitTrack;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96A587102CF8FDF70078EF48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A587392CF910830078EF48 /* FirebaseDatabase in Frameworks */,
+				96A5873D2CF9108C0078EF48 /* FirebaseCore in Frameworks */,
+				96A587332CF910700078EF48 /* SwiftUI.framework in Frameworks */,
+				96A587362CF910720078EF48 /* WidgetKit.framework in Frameworks */,
+				96A5873B2CF910870078EF48 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E90E712CD7E34100BDBACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A2CB272CF53E8600D92460 /* FirebaseDatabase in Frameworks */,
+				96A2CB1F2CF537A400D92460 /* FirebaseDatabase in Frameworks */,
+				96A2CB232CF53E8600D92460 /* FirebaseAuth in Frameworks */,
+				96A2CB252CF53E8600D92460 /* FirebaseCore in Frameworks */,
+				96A2CB1D2CF537A400D92460 /* FirebaseCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96A587142CF8FDF70078EF48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96A587152CF8FDF70078EF48 /* WidgetKit.framework */,
+				96A587172CF8FDF70078EF48 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96C3301D2D07B4BB004AA33F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				96E066BC2D04118100A52801 /* UserProfile.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		96E90E6B2CD7E34100BDBACC = {
+			isa = PBXGroup;
+			children = (
+				96C3301D2D07B4BB004AA33F /* Shared */,
+				96A587322CF90DC30078EF48 /* FitTrackWidgetExtension.entitlements */,
+				96E90E762CD7E34100BDBACC /* FitTrack */,
+				96A587192CF8FDF70078EF48 /* FitTrackWidget */,
+				96A587142CF8FDF70078EF48 /* Frameworks */,
+				96E90E752CD7E34100BDBACC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96E90E752CD7E34100BDBACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96E90E742CD7E34100BDBACC /* FitTrack.app */,
+				96A587132CF8FDF70078EF48 /* FitTrackWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96A587122CF8FDF70078EF48 /* FitTrackWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96A5872A2CF8FDF80078EF48 /* Build configuration list for PBXNativeTarget "FitTrackWidgetExtension" */;
+			buildPhases = (
+				96A5870F2CF8FDF70078EF48 /* Sources */,
+				96A587102CF8FDF70078EF48 /* Frameworks */,
+				96A587112CF8FDF70078EF48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				96A587192CF8FDF70078EF48 /* FitTrackWidget */,
+			);
+			name = FitTrackWidgetExtension;
+			packageProductDependencies = (
+				96A587382CF910830078EF48 /* FirebaseDatabase */,
+				96A5873A2CF910870078EF48 /* FirebaseAuth */,
+				96A5873C2CF9108C0078EF48 /* FirebaseCore */,
+			);
+			productName = FitTrackWidgetExtension;
+			productReference = 96A587132CF8FDF70078EF48 /* FitTrackWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		96E90E732CD7E34100BDBACC /* FitTrack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96E90E852CD7E34300BDBACC /* Build configuration list for PBXNativeTarget "FitTrack" */;
+			buildPhases = (
+				96E90E702CD7E34100BDBACC /* Sources */,
+				96E90E712CD7E34100BDBACC /* Frameworks */,
+				96E90E722CD7E34100BDBACC /* Resources */,
+				96A5872E2CF8FDF80078EF48 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96A587282CF8FDF80078EF48 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				96E90E762CD7E34100BDBACC /* FitTrack */,
+			);
+			name = FitTrack;
+			packageProductDependencies = (
+				96A2CB1C2CF537A400D92460 /* FirebaseCore */,
+				96A2CB1E2CF537A400D92460 /* FirebaseDatabase */,
+				96A2CB222CF53E8600D92460 /* FirebaseAuth */,
+				96A2CB242CF53E8600D92460 /* FirebaseCore */,
+				96A2CB262CF53E8600D92460 /* FirebaseDatabase */,
+			);
+			productName = FitTrack;
+			productReference = 96E90E742CD7E34100BDBACC /* FitTrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96E90E6C2CD7E34100BDBACC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					96A587122CF8FDF70078EF48 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					96E90E732CD7E34100BDBACC = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 96E90E6F2CD7E34100BDBACC /* Build configuration list for PBXProject "FitTrack" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96E90E6B2CD7E34100BDBACC;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				96A2CB192CF5346600D92460 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 96E90E752CD7E34100BDBACC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96E90E732CD7E34100BDBACC /* FitTrack */,
+				96A587122CF8FDF70078EF48 /* FitTrackWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96A587112CF8FDF70078EF48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E90E722CD7E34100BDBACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96A5870F2CF8FDF70078EF48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96C3301E2D07B4C9004AA33F /* UserProfile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E90E702CD7E34100BDBACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96E066E22D04118100A52801 /* UserProfile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96A587282CF8FDF80078EF48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96A587122CF8FDF70078EF48 /* FitTrackWidgetExtension */;
+			targetProxy = 96A587272CF8FDF80078EF48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		96A5872B2CF8FDF80078EF48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = FitTrackWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3L7WJ74F5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FitTrackWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FitTrackWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wira.nolan.FitTrack.FitTrackWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96A5872C2CF8FDF80078EF48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = FitTrackWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3L7WJ74F5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FitTrackWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FitTrackWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wira.nolan.FitTrack.FitTrackWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		96E90E862CD7E34300BDBACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FitTrack/FitTrack.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FitTrack/Assets/Preview Content\"";
+				DEVELOPMENT_TEAM = S3L7WJ74F5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FitTrack/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to scan food barcodes";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "FitTrack uses Face ID to securely unlock your fitness data.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need access to your health data to track your daily calorie burn.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We need access to your health data to track your daily calorie burn.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wira.nolan.FitTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96E90E872CD7E34300BDBACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FitTrack/FitTrack.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FitTrack/Assets/Preview Content\"";
+				DEVELOPMENT_TEAM = S3L7WJ74F5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FitTrack/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to scan food barcodes";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "FitTrack uses Face ID to securely unlock your fitness data.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need access to your health data to track your daily calorie burn.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We need access to your health data to track your daily calorie burn.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wira.nolan.FitTrack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		96E90E882CD7E34300BDBACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96E90E892CD7E34300BDBACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96A5872A2CF8FDF80078EF48 /* Build configuration list for PBXNativeTarget "FitTrackWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A5872B2CF8FDF80078EF48 /* Debug */,
+				96A5872C2CF8FDF80078EF48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96E90E6F2CD7E34100BDBACC /* Build configuration list for PBXProject "FitTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E90E882CD7E34300BDBACC /* Debug */,
+				96E90E892CD7E34300BDBACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96E90E852CD7E34300BDBACC /* Build configuration list for PBXNativeTarget "FitTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E90E862CD7E34300BDBACC /* Debug */,
+				96E90E872CD7E34300BDBACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		96A2CB192CF5346600D92460 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		96A2CB1C2CF537A400D92460 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseCore;
+		};
+		96A2CB1E2CF537A400D92460 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseDatabase;
+		};
+		96A2CB222CF53E8600D92460 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseAuth;
+		};
+		96A2CB242CF53E8600D92460 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseCore;
+		};
+		96A2CB262CF53E8600D92460 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirebaseDatabase;
+		};
+		96A587382CF910830078EF48 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 96A2CB192CF5346600D92460 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		96A5873A2CF910870078EF48 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 96A2CB192CF5346600D92460 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		96A5873C2CF9108C0078EF48 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 96A2CB192CF5346600D92460 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 96E90E6C2CD7E34100BDBACC /* Project object */;
+}
